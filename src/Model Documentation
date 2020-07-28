@@ -1,0 +1,7 @@
+Describe the effect each of the P, I, D components had in your implementation?
+The PID Component was initially unstable . And Using Twiddle, I was able to find better hyperparameters with minimized error.
+
+My final hyperparameters where
+Kp = 0.30351;
+Ki = 0.00001;
+Kd = 2.66123;
